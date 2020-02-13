@@ -110,7 +110,7 @@
           const numeroColor = this.transaformarColorNumero(nombreColor)
           this.iluminarColor(nombreColor)
           if(numeroColor === this.secuencia[this.subNivel]) {
-            this.subNivel++
+            this.subNivel++ 
             if(this.subNivel === this.nivel) {
               this.aumentarNumeroNivel()
               setTimeout(this.nivel++, 700)
